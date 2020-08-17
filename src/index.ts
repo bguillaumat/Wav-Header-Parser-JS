@@ -12,7 +12,7 @@ export function wavParser(base64sound: string): any {
         + byteString.charCodeAt(18).toString(16)
         + byteString.charCodeAt(17).toString(16)
         + byteString.charCodeAt(16).toString(16);
-    resultObject.lengthOfFormatData = parseInt(length, 16);
+    //resultObject.lengthOfFormatData = parseInt(length, 16);
 
     let formatTypeTMP = byteString.charCodeAt(21).toString(16)
         + byteString.charCodeAt(20).toString(16);
@@ -36,7 +36,7 @@ export function wavParser(base64sound: string): any {
         + byteString.charCodeAt(41).toString(16)
         + byteString.charCodeAt(42).toString(16)
         + byteString.charCodeAt(43).toString(16);
-    resultObject.sizeOfData = parseInt(sizeOfDataTMP, 16);
+    //resultObject.sizeOfData = parseInt(sizeOfDataTMP, 16);
 
     return resultObject;
 }
