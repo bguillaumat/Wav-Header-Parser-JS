@@ -1,6 +1,6 @@
 {
   "name": "wav-header-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wav Header Parser for JS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/bguillaumat/Wav-Header-Parser-JS.git"
   },
-  "keywords": [],
+  "keywords": ["wav", "parser", "js"],
   "author": "Bastien Guillaumat",
   "license": "MIT",
   "bugs": {
